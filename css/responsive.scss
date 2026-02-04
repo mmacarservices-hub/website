@@ -1,0 +1,19 @@
+/* ultra low-rez */
+@media (orientation: landscape) and (max-width: 1000px) {
+}
+
+/* "normal" */
+@media (orientation: landscape) and (min-width: 1000px) {
+}
+
+/* 4k */
+@media (orientation: landscape) and (min-width: 3000px) {
+}
+
+/* square?? */
+@media (orientation: portrait){
+}
+
+/* phone */
+@media (orientation: portrait) and (max-width: 550px) {
+}

@@ -1,0 +1,32 @@
+.text-holder {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  height: 100%;
+
+  justify-content: center;
+
+  transform: skewX(-3deg);
+  padding: 12px 24px;
+  gap: 20px;
+
+  & > div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 6px 12px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+
+    &.d1 {
+      font-size: 30px;
+    }
+
+    &.d2 {
+      font-size: 36px;
+      font-weight: bold;
+      background-color: var(--color-grey);
+      margin-bottom: 20px;
+    }
+  }
+}
+

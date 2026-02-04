@@ -1,0 +1,119 @@
+*::selection {
+  background-color: var(--color-dark);
+  color: var(--color-latte);
+}
+
+h1,
+h2,
+h3,
+h4,
+a,
+p,
+span,
+blockquote {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  color: var(--color-dark);
+  font-synthesis: none;
+  cursor: default;
+}
+
+a { 
+  text-decoration: none;
+  cursor: pointer;
+}
+
+pre {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  color: var(--color-dark);
+  font-synthesis: none;
+  cursor: default;
+  width: fit-content;
+  height: fit-content;
+}
+
+span, a {
+  white-space: nowrap;
+  width: fit-content;
+  height: fit-content;
+}
+
+.text-white { 
+  color: var(--color-white); 
+  &::selection { 
+    background-color: var(--color-white);
+    color: var(--color-dark); 
+  }
+}
+
+.text-latte { 
+  color: var(--color-latte); 
+  &::selection { 
+    background-color: var(--color-latte);
+    color: var(--color-dark); 
+  }
+}
+
+.text-faded {
+  color: var(--color-faded);
+  &::selection { 
+    background-color: var(--color-faded);
+    color: var(--color-dark); 
+  }
+}
+
+.text-blue   { 
+  color: var(--color-blue);
+  &::selection { 
+    background-color: var(--color-blue);
+    color: var(--color-latte); 
+  }
+}
+
+.text-green  { 
+  color: var(--color-green); 
+  &::selection { 
+    background-color: var(--color-green);
+    color: var(--color-latte); 
+  }
+}
+
+.text-yellow { 
+  color: var(--color-yellow); 
+  &::selection { 
+    background-color: var(--color-yellow);
+    color: var(--color-dark); 
+  }
+}
+
+.text-orange { 
+  color: var(--color-orange); 
+  &::selection { 
+    background-color: var(--color-orange);
+    color: var(--color-latte); 
+  }
+}
+
+.text-red { 
+  color: var(--color-red); 
+  &::selection { 
+    background-color: var(--color-red);
+    color: var(--color-latte); 
+  }
+}
+
+.technical {
+  font-family: Menlo, monospace;
+  font-weight: 300;
+}
+
+.text-italic { font-style: italic; }
+
+.text-mini  { font-size: 12px !important; }
+.text-tiny  { font-size: 14px !important; }
+.text-small { font-size: 20px !important; }
+.text-large { font-size: 32px !important; }
+
