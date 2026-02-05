@@ -19,9 +19,22 @@ blockquote {
   cursor: default;
 }
 
+ul {
+  text-align: start;
+  margin: 0 0.1em;
+}
+
+h2 {
+  margin-bottom: 0.5em;
+}
+
 a { 
   text-decoration: none;
   cursor: pointer;
+
+  & * {
+    cursor: pointer;
+  }
 }
 
 pre {
