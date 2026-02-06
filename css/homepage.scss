@@ -34,6 +34,7 @@
   // mobile
   @media (orientation: portrait) and (max-width: 550px) {
     margin-top: 1em;
+    margin-bottom: 1em;
     flex-direction: column;
     width: 100%;
     height: auto;
@@ -108,7 +109,7 @@
   @media (orientation: portrait) and (max-width: 550px) {
     width: 100%;
     transform: skewX(0);
-    min-height: 260px;
+    min-height: 200px;
 
     filter: brightness(1) grayscale(0);
   }
@@ -121,6 +122,10 @@
   &:hover {
     flex: 1;
     filter: brightness(1) grayscale(0);
+  }
+
+  @media (orientation: portrait) and (max-width: 550px) {
+    min-height: 260px;
   }
 }
 
